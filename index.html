@@ -12,6 +12,12 @@ var speed=80 // SPEED OF FADE
 
 // ********** LEAVE THE NEXT BIT ALONE!
 
+Font courierBold10 = new Font("Courier", Font.BOLD, 10);
+g.setColor(Color.red);
+g.setFont(courierBold10);
+g.drawString("Java Rules!!!", 120, 120);
+
+
 if (document.all||document.getElementById){
 document.write('<span id="highlight">' + text + '</span>')
 var storetext=document.getElementById? document.getElementById("highlight") : document.all.highlight
